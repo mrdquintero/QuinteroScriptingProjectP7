@@ -20,12 +20,12 @@ public class IfStatements : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
+        {
             TemperatureTest();
+        }
 
-        coffeeTemperature -= Time.deltaTime * 5f; if (Input.GetKeyDown(KeyCode.Space))
-            TemperatureTest();
-
-        coffeeTemperature -= Time.deltaTime * 5f;
+        coffeeTemperature -= Time.deltaTime * 5f; 
+           
     }
     void TemperatureTest()
     {
