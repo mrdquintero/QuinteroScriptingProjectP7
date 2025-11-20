@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class ForLoops : MonoBehaviour
 {
-    int numEnemies = 3;
+    public int numEnemies = 3;
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < numEnemies; i++)
+        for (int i = 1; i <= numEnemies; i++)
         {
             Debug.Log("Creating enemy number: " + i);
         }
